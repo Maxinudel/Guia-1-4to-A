@@ -112,7 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &452242553
+--- !u!1 &84689188
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,36 +120,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 452242555}
-  - component: {fileID: 452242554}
+  - component: {fileID: 84689190}
+  - component: {fileID: 84689189}
   m_Layer: 0
-  m_Name: "Conversi\xF3n De Monedas"
+  m_Name: Especialidades
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &452242554
+--- !u!114 &84689189
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452242553}
+  m_GameObject: {fileID: 84689188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d24136564302fab4fade5a91b2b7e801, type: 3}
+  m_Script: {fileID: 11500000, guid: 541118285223b964bafe2b44ee6254db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  montoAConvertir: 1000000
-  moneda: D
---- !u!4 &452242555
+  nombreAlumno: Maxi
+  especialidad: T
+  "a\xF1o": 2
+--- !u!4 &84689190
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452242553}
+  m_GameObject: {fileID: 84689188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -157,7 +158,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &876997510
+--- !u!1 &1059124847
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,9 +166,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 876997513}
-  - component: {fileID: 876997512}
-  - component: {fileID: 876997511}
+  - component: {fileID: 1059124850}
+  - component: {fileID: 1059124849}
+  - component: {fileID: 1059124848}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -175,21 +176,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &876997511
+--- !u!81 &1059124848
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876997510}
+  m_GameObject: {fileID: 1059124847}
   m_Enabled: 1
---- !u!20 &876997512
+--- !u!20 &1059124849
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876997510}
+  m_GameObject: {fileID: 1059124847}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -225,13 +226,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &876997513
+--- !u!4 &1059124850
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876997510}
+  m_GameObject: {fileID: 1059124847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
