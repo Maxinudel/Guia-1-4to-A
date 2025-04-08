@@ -15,15 +15,15 @@ public class ConversionDeMonedas : MonoBehaviour
         {
             Debug.Log("El monto mínimo es $1000");
         }else if (moneda=="D") {
-            Debug.Log(montoAConvertir * 1075 + " " + "Dolares");
+            Debug.Log(montoAConvertir / 1075 + " " + "Dolares");
          }
         else if (moneda == "E")
         {
-            Debug.Log(montoAConvertir * 1174 + " " + "Euros"); 
+            Debug.Log(montoAConvertir / 1174 + " " + "Euros"); 
          }
         else if (moneda == "R")
         {
-            Debug.Log(montoAConvertir * 225 + " " + "Reales");
+            Debug.Log(montoAConvertir / 225 + " " + "Reales");
          }
         else
         {

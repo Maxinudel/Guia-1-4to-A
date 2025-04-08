@@ -141,8 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d24136564302fab4fade5a91b2b7e801, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  montoAConvertir: 0
-  moneda: 
+  montoAConvertir: 1000.5
+  moneda: D
 --- !u!4 &452242555
 Transform:
   m_ObjectHideFlags: 0
