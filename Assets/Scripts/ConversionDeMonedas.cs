@@ -5,25 +5,25 @@ using UnityEngine;
 public class ConversionDeMonedas : MonoBehaviour
 {
 
-    public int Cantidad;
-    public string Moneda;
+    public float montoAConvertir;
+    public string moneda;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (Cantidad < 1000)
+        if (montoAConvertir < 1000)
         {
             Debug.Log("El monto mínimo es $1000");
-        }else if (Moneda=="D") {
-            Debug.Log(Cantidad * 1075 + " " + "Dolares");
+        }else if (moneda=="D") {
+            Debug.Log(montoAConvertir * 1075 + " " + "Dolares");
          }
-        else if (Moneda == "E")
+        else if (moneda == "E")
         {
-            Debug.Log(Cantidad * 1174 + " " + "Euros"); 
+            Debug.Log(montoAConvertir * 1174 + " " + "Euros"); 
          }
-        else if (Moneda == "R")
+        else if (moneda == "R")
         {
-            Debug.Log(Cantidad * 225 + " " + "Reales");
+            Debug.Log(montoAConvertir * 225 + " " + "Reales");
          }
         else
         {
